@@ -1,0 +1,53 @@
+# =======================================
+# Xcode
+# =======================================
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcworkspace/xcuserdata/*
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# User-specific Xcode files
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+
+# =======================================
+# Build output
+# =======================================
+build/
+DerivedData/
+
+# =======================================
+# Swift Package Manager
+# =======================================
+.build/
+Packages/
+Package.resolved
+
+# =======================================
+# CocoaPods
+# =======================================
+Pods/
+Podfile.lock
+
+# =======================================
+# Carthage
+# =======================================
+Carthage/Build/
+
+# =======================================
+# Fastlane
+# =======================================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# =======================================
+# macOS
+# =======================================
+.DS_Store
